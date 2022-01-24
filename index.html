@@ -8,13 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Viajes Chile</title>
 </head>
 <body>
     
-    <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" class="pe-1" width="20rem" alt="">Viajes Chile </a>
+            <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" class="pe-1" width="22rem" alt="">Viajes Chile </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,7 +62,9 @@
                 <h1 class="text-center pt-5 pb-4 fw-light">¿QUIÉNES SOMOS?</h1>
                 <hr class="opacity-100 w-75 mx-auto">
                 <div class="col-4">
-                    <div class="text-center faicon py-1"> <i class="fas fa-plane fa-2x"></i> </div>
+                    <div class="text-center faicon py-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"> 
+                        <i class="fas fa-plane fa-2x"></i> 
+                    </div>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus blanditiis inventore 
                     libero saepe eos, asperiores laborum rem doloribus atque perspiciatis totam eligendi magni ut 
@@ -77,10 +82,14 @@
                     libero saepe eos, asperiores laborum rem doloribus atque perspiciatis totam eligendi magni ut 
                     rerum. At voluptatem voluptas enim culpa!
                     </p>
-                    <div class="text-center faicon py-1"><i class="fas fa-mountain fa-2x"></i></div>
+                    <div class="text-center faicon py-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                        <i class="fas fa-mountain fa-2x"></i>
+                    </div>
                 </div>
                 <div class="col-4">
-                    <div class="text-center faicon py-1"><i class="fas fa-route fa-2x"></i></div>
+                    <div class="text-center faicon py-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                        <i class="fas fa-route fa-2x"></i>
+                    </div>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus blanditiis inventore 
                     libero saepe eos, asperiores laborum rem doloribus atque perspiciatis totam eligendi magni ut 
@@ -177,11 +186,11 @@
                     <h3 class="text-light fw-light pt-4"> VIAJES CHILE</h3>
                 </div>
                 <div class="col-3"></div>
-                <div class="col-2 text-light pt-4">
-                    <i class="fab fa-github-square fa-2x px-1"></i>
-                    <i class="fab fa-linkedin fa-2x px-1"></i>
-                    <i class="fab fa-twitter-square fa-2x px-1"></i>
-                    <i class="fab fa-facebook-square fa-2x px-1"></i>
+                <div class="col-2  pt-4">
+                    <a class="text-light" href="#"><i class="fab fa-github-square fa-2x px-1"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-linkedin fa-2x px-1"></i></a>
+                    <a class="text-light" href=""><i class="fab fa-twitter-square fa-2x px-1"></i></a>
+                    <a class="text-light" href=""> <i class="fab fa-facebook-square fa-2x px-1"></i></a>
                 </div>
             </div>
         </div>

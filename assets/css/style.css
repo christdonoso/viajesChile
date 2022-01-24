@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Roboto";
+}
+
 section{
     background-color: black;
     color: white;
@@ -18,4 +25,9 @@ section{
 footer {
     background-color: #2FBBEA;
     height: 90px;
+}
+
+/* hace que la transicion del navbar de trasnparaten a negro sea paulatino y viceversa */
+.bg-dark {
+    transition: all 0.5s ease-in-out;
 }
