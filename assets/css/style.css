@@ -1,8 +1,12 @@
-section {
+section{
     background-color: black;
     color: white;
 }
 
 .faicon{
+    background-color: #2FBBEA;
+}
+
+.card_body {
     background-color: #2FBBEA;
 }
